@@ -192,3 +192,40 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Project specific
+*.pth
+*.pt
+data/raw/
+data/authentic/
+data/tampered/
+*.zip
+*.tar.gz
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AWS credentials
+.aws/
+credentials
+
+# Logs
+logs/
+*.log
+
+# Large files (handled by Git LFS)
+*.pkl
+*.joblib
