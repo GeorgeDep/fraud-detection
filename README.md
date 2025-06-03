@@ -1,13 +1,10 @@
-# fraud-detection
-AI-powered system for detecting image manipulation techniques used in insurance fraud claims using EfficientNet and Grad-CAM
-
 # AI-Powered Image Fraud Detection System
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12+-red.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A computer vision system for detecting copy-move tampering in insurance fraud claims using EfficientNet-B0 and Grad-CAM interpretability.
+An AI-powered system for detecting image manipulation techniques used in insurance fraud claims using EfficientNet and Grad-CAM interpretability.
 
 ## 🎯 Project Overview
 
@@ -31,7 +28,7 @@ pip install -r requirements.txt
 ### Training Notebook
 The complete development process is documented in the Jupyter notebook:
 - **GitHub**: [V5_Fraud_Detection.ipynb](notebooks/V5_Fraud_Detection.ipynb)
-- **Google Colab**: [Open in Colab with Outputs](YOUR_COLAB_LINK_HERE) *(recommended for full viewing experience)*
+- **Google Colab**: [Open in Colab with Outputs](https://colab.research.google.com/drive/1k9pbt8GQSGEN5ETkzHCrjpwqdvMuSAN4?usp=sharing) *(recommended for full viewing experience)*
 
 ### Run Flask API
 ```bash
