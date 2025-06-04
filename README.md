@@ -16,6 +16,26 @@ This project addresses image tampering detection in insurance fraud, specificall
 - **Production API**: Flask deployment with real-time inference
 - **Comprehensive Evaluation**: Performance analysis with multiple metrics and edge case studies
 
+## 🔍 Model Performance Examples
+
+### Grad-CAM Fraud Detection in Action
+
+The system successfully identifies tampering with high confidence and provides clear visual explanations:
+
+<div align="center">
+<img src="results/api_demo_results/example2.webp" alt="Grad-CAM Tampered Detection" width="800"/>
+<p><em><strong>Tampered Image Detection (Confidence: 94.9%)</strong><br/>
+Grad-CAM heatmap highlights the suspicious regions where copy-move tampering was applied to the fountain scene</em></p>
+</div>
+
+### Multi-Image Classification Results
+
+<div align="center">
+<img src="results/api_demo_results/example1.png" alt="Classification Examples" width="800"/>
+<p><em><strong>Comprehensive Test Results</strong><br/>
+Model accurately classifies both authentic and tampered images with high confidence across diverse scenarios</em></p>
+</div>
+
 ## 🚀 Quick Start
 
 ### Installation
