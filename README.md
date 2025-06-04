@@ -4,11 +4,11 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12+-red.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-An AI-powered system for detecting image manipulation techniques used in insurance fraud claims using EfficientNet and Grad-CAM interpretability.
+A computer vision system that detects copy-move tampering using EfficientNet-B0 with Grad-CAM interpretability - targeting a core manipulation technique prevalent across multiple fraud domains.
 
 ## 🎯 Project Overview
 
-This project addresses image tampering detection in insurance fraud, specifically targeting copy-move manipulation techniques. The system combines deep learning accuracy with explainable AI to provide reliable detection and transparent decision-making for fraud investigators.
+This project develops a computer vision system for detecting copy-move tampering - a fundamental image manipulation technique prevalent in fraudulent claims. Using EfficientNet-B0 with Grad-CAM interpretability, the system provides both accurate detection and explainable insights for fraud investigation workflows. While demonstrated on academic datasets, the architecture establishes a robust foundation for deployment across insurance, document verification, and financial fraud scenarios.
 
 ### Key Technical Features
 - **Computer Vision Model**: EfficientNet-B0 fine-tuned for binary classification (authentic vs tampered)
