@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 ### Training Notebook
 The complete development process is documented in the Jupyter notebook:
-- **GitHub**: [fraud-detection-notebook.ipynb](notebooks/fraud-detection-notebookipynb)
+- **GitHub**: [fraud-detection-notebook.ipynb](notebooks/fraud-detection-notebook.ipynb)
 - **Google Colab**: [Open in Colab with Outputs](https://colab.research.google.com/drive/1k9pbt8GQSGEN5ETkzHCrjpwqdvMuSAN4?usp=sharing) *(recommended for full viewing experience)*
 
 ### Run Flask API
