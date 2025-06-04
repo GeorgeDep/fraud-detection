@@ -18,7 +18,7 @@ This project addresses image tampering detection in insurance fraud, specificall
 
 ## 🔍 Model Performance Examples
 
-### Grad-CAM Fraud Detection in Action
+### Multi-Image Classification Results
 
 The system successfully identifies tampering with high confidence and provides clear visual explanations:
 
@@ -28,7 +28,7 @@ The system successfully identifies tampering with high confidence and provides c
 Model accurately classifies both authentic and tampered images with high confidence across diverse scenarios</em></p>
 </div>
 
-### Multi-Image Classification Results
+### Grad-CAM Detection in Action
 
 <div align="center">
 <img src="results/api_demo_results/example1.png" alt="Classification Examples" width="800"/>
