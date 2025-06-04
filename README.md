@@ -12,7 +12,7 @@ This project develops a computer vision system for detecting copy-move tampering
 
 ### Key Technical Features
 - **Computer Vision Model**: EfficientNet-B0 fine-tuned for binary classification (authentic vs tampered)
-- **Explainable AI**: Grad-CAM visualizations highlighting suspicious regions
+- **Explainable AI**: Grad-CAM visualisations highlighting suspicious regions
 - **Production API**: Flask deployment with real-time inference
 - **Comprehensive Evaluation**: Performance analysis with multiple metrics and edge case studies
 
@@ -105,7 +105,7 @@ The model was trained using:
 - Confidence calibration assessment for prediction reliability
 
 ### Interpretability Analysis
-- Grad-CAM visualizations for different prediction scenarios
+- Grad-CAM visualisations for different prediction scenarios
 - Comparative analysis showing model reasoning for both classes
 - Edge case studies with detailed explanation patterns
 
@@ -120,7 +120,7 @@ fraud-detection/
 │   └── sagemaker/               # AWS deployment framework
 ├── models/                      # Trained model (16MB)
 │   └── fraud_detection_complete_20250603_145722.pth
-├── results/                     # Training results and visualizations
+├── results/                     # Training results and visualisations
 │   ├── gradcam_examples/        # Interpretability demonstrations
 │   ├── api_demo_results/        # Live API test results
 │   └── training_curves_*.png    # Performance plots
