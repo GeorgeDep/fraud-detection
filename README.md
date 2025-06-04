@@ -94,7 +94,7 @@ The model was trained using:
 ```
 fraud-detection/
 ├── notebooks/                    # Training and analysis notebooks
-│   └── V5_Fraud_Detection.ipynb
+│   └── fraud-detection-notebook.ipynb
 ├── deployment/                   # Deployment configurations
 │   ├── flask_api/               # Working Flask API
 │   └── sagemaker/               # AWS deployment framework
